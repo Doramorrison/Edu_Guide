@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actor | Services page</title>
+    <link rel="icon" href="Image/image (44).png" sizes="16x16">
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Main Css-->
+    <link rel="stylesheet" href="majors.css">
+    <script src="majors.js" defer></script>
+    
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mb-5">
+        <!-- Navbar as logo -->
+        <a class="navbar-brand ms-3" href="#"><img src="Image/logo.png" alt="#" height="50px"></a>
+        <!-- Toggle button -->
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav items container -->
+        <div class="collapse navbar-collapse ms-3" id="navbar">
+          <ul class="navbar-nav ">
+              <li class="nav-item"><a href="userpage.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="about1.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="subjects.html" class="nav-link">IGCSE Subjects</a></li>
+              <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="career.html" class="dropdown-item">Careers</a></li>
+                      <li><a href="career_test.html" class="dropdown-item">Careers Test</a></li>
+                      <li><a href="tips.html" class="dropdown-item">Preparing for exam</a></li>
+                  </ul>
+              </li>
+          </ul>
+          <ul class="navbar-nav ms-auto me-5">           
+              <li class="nav-item dropdown profile"><a id="userid"  href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
+                  <ul class="dropdown-menu aside">
+                      <li><a class="dropdown-item" href="index.html" id="logout"><i class="bi bi-box-arrow-right" style="font-size: 15px;"></i> Log out</a></li>
+                  </ul>
+              </li>                
+          </ul>
+        </div>       
+      </nav>
+        <h2 class="copy1 mb-0"></h2>
+        <div class="container mt-5">
+            <hr class="my-4" style="border-color: #504bd6;"> <h2 class="mt-5">CHECK FOR SUBJECTS</h2> <hr class="my-4">
+            <h5 style="color: rgb(198, 203, 207);">ACTOR</h5>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="subject-card">
+                        <div class="d-flex box justify-content-center align-items-center mb-3">
+                            <div><i class="bi bi-camera-reels icon"></i></div>
+                        </div>
+                        <h3>Drama</h3>
+                        <p>This is the most directly related subject, offering essential skills in acting, performance techniques, and stagecraft. You'll also learn about different theatre styles and how to analyze scripts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subject-card">
+                        <div class="d-flex box justify-content-center align-items-center mb-3">
+                            <div><i class="bi bi-book icon"></i></div>
+                        </div>
+                        <h3>English Literature</h3>
+                        <p>Understanding literature and the ability to interpret and analyze texts will help you develop your skills in script analysis. You'll also gain a deeper understanding of characters, themes, and storytelling.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subject-card">
+                        <div class="d-flex box justify-content-center align-items-center mb-3">
+                            <div><i class="bi bi-book-fill icon"></i></div>
+                        </div>
+                        <h3>English Language</h3>
+                        <p>This subject enhances your communication skills, helping you become more articulate and expressive, both in speech and writing. It's crucial for auditions, interviews, and acting performances.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="subject-card">
+                        <div class="d-flex box justify-content-center align-items-center mb-3">
+                            <div><i class="bi bi-chat-square-heart-fill icon"></i></div>
+                        </div>
+                        <h3>Art or Design</h3>
+                        <p>These subjects provide a good understanding of visual arts and creativity, which are important for set design, costumes, and understanding how physical space is used in performances.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subject-card">
+                        <div class="d-flex box justify-content-center align-items-center mb-3">
+                            <div><i class="bi bi-journal-text icon"></i></div>
+                        </div>
+                        <h3>Physical Education</h3>
+                        <p>Physical fitness is important for an actor's overall presence and stamina. This subject will help you improve body coordination, flexibility, and endurance, which are necessary for physical performances and stage movements.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subject-card">
+                        <div class="d-flex box justify-content-center align-items-center mb-3">
+                            <div><i class="bi bi-music-note-list icon"></i></div>
+                        </div>
+                        <h3>Music</h3>
+                        <p>Music can aid in voice control, rhythm, and learning the musical elements needed for performing in musicals or productions that involve singing and movement.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container1" style="margin-top: 120px;">
+                <h1 class="mb-5">Top 5 famous Universities for Actor</h1>
+                <hr>
+                <p class="mt-3 mb-3" style="color: rgb(196, 196, 196); text-shadow: 5px 5px 3px;">IN ASIA</p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                        <div class="card text-bg-dark">
+                            <img src="https://th.bing.com/th/id/R.2be7a0e052929882e6b4a3c77890d91c?rik=mSCfABNC7x9n3w&pid=ImgRaw&r=0&sres=1&sresct=1" class="card-img" alt="Image-1">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title text-center" style="margin-block: 20%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">National School of Drama (NSD), India</h5>
+                                <a class="btn text-center" href="https://www.britannica.com/topic/National-School-of-Drama#:~:text=National%20School%20of%20Drama%20%28NSD%29%2C%20educational%20institution%20in,the%20foremost%20school%20of%20its%20kind%20in%20India.">Learn More</a>                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                        <div class="card text-bg-dark">
+                            <img src="https://www.eduopinions.com/wp-content/uploads/2017/09/Beijing-Film-Academy-BFA-campus.jpg" class="card-img" alt="Image-2">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title text-center" style="margin-block: 20%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Beijing Film Academy, China</h5>
+                                <a class="btn text-center" href="https://eng.bfa.edu.cn/">Learn More</a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                        <div class="card text-bg-dark">
+                            <img src="https://wiki.animation-luzern.ch/images/f/f2/Korea_K-Art_College.jpg" class="card-img" alt="Image-3">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title text-center" style="margin-block: 17%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Korea National University of Arts (K-ARTS), South Korea</h5>
+                                <a class="btn text-center" href="https://www.karts.ac.kr/en/main.do">Learn More</a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 justify-content-center">
+                        <div class="col-md-4 col-lg-4 col-sm-12 mt-5 image-hover mt-2">
+                            <div class="card text-bg-dark">
+                                <img src="https://th.bing.com/th/id/OIP.cGkmpD9RUwzOqjaw5nOzcQHaE7?rs=1&pid=ImgDetMain" class="card-img" alt="Image-4">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-center" style="margin-block: 19%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Nanyang Academy of Fine Arts (NAFA), Singapore</h5>
+                                    <a class="btn text-center" href="https://www.nafa.edu.sg/">Learn More</a>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12 mt-5 image-hover mt-2" >
+                            <div class="card text-bg-dark">
+                                <img src="https://th.bing.com/th/id/OIP.i38e1uhZ1yJZcbUXpnhujwHaE7?rs=1&pid=ImgDetMain" class="card-img" alt="Image-5">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-center" style="margin-block: 20%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Hong Kong Academy for Performing Arts (HKAPA), Hong Kong</h5>
+                                    <a class="btn text-center" href="https://www.hkapa.edu/">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <div class="container1" style="margin-top: 120px;">
+            <h1 class="mb-5">Top 5 famous Universities for Actor</h1>
+            <hr>
+            <p class="mt-3 mb-3" style="color: rgb(196, 196, 196); text-shadow: 5px 5px 3px;">IN EUROPE</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                    <div class="card text-bg-dark">
+                        <img src="https://c8.alamy.com/comp/2B1R5JP/london-uk-july-6-2016-theatre-of-royal-academy-of-dramatic-art-rada-in-london-uk-the-theatre-school-was-founded-in-1904-2B1R5JP.jpg" class="card-img" alt="Image-1">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-center" style="margin-block: 20%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Royal Academy of Dramatic Art (RADA), UK</h5>
+                          <a class="btn text-center" href="https://www.rada.ac.uk/">Learn More</a>                    
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                    <div class="card text-bg-dark">
+                        <img src="https://www.gsmd.ac.uk/sites/default/files/styles/uncropped_large/public/2022-04/211125_GSMD_801.jpg?itok=IB8WRxDG" class="card-img" alt="Image-2">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title text-center" style="margin-block: 20%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Guildhall School of Music & Drama, UK</h5>
+                            <a class="btn text-center" href="https://www.gsmd.ac.uk/">Learn More</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                    <div class="card text-bg-dark">
+                        <img src="https://th.bing.com/th/id/R.19b438d5d759422bc2c78d052b650ac1?rik=yjwxNNS54Hd33w&riu=http%3a%2f%2fetudinfo.com%2fimage%2fphoto%2fecole-internationale-de-51ada82cea8ea.jpg&ehk=Dej%2fJ6Vb7sb429RbcuTzujoZUOOj11OYf2qCaZIuU%2bY%3d&risl=&pid=ImgRaw&r=0" class="card-img" alt="Image-3">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title text-center" style="margin-block: 17%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">L'École Internationale de Théâtre Jacques Lecoq, France</h5>
+                          <a class="btn text-center" href="https://www.ecole-jacqueslecoq.com/?lang=en">Learn More</a> 
+                        </div>
+                      </div>
+                </div>
+                <div class="row mt-3 justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2">
+                        <div class="card text-bg-dark">
+                            <img src="https://www.thelir.ie/images/events/Open-Day.jpg" class="card-img" alt="Image-4">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title text-center" style="margin-block: 19%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">National Academy of Dramatic Art (The Lir Academy), Ireland</h5>
+                              <a class="btn text-center" href="https://www.thelir.ie/">Learn More</a> 
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 image-hover mt-2" >
+                        <div class="card text-bg-dark">
+                            <img src="http://upload.wikimedia.org/wikipedia/commons/6/6d/Reinhardtseminar071011.jpg" class="card-img" alt="Image-5">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title text-center" style="margin-block: 20%; text-shadow: 5px 5px 3px rgb(0, 0, 0);">Max Reinhardt Seminar, Austria</h5>
+                              <a class="btn text-center" href="https://www.maxreinhardtseminar.at/">Learn More</a> 
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="mb-5 mt-5">Top 3 Easiest Countries to Apply for scholarship</h1>
+            <hr>
+            <p class="mt-3 mb-3" style="color: rgb(196, 196, 196); text-shadow: 5px 5px 3px;">IN ASIA</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://th.bing.com/th/id/R.8a799cd65cc63a2e69455b6775edafc8?rik=fDHFpGSATjF4Ww&pid=ImgRaw&r=0" alt="Slide 1" class="Img">
+                                <div class="text-overlay">
+                                  South Korea
+                                </div>
+                              </div>
+                              
+                            <div class="carousel-item">
+                                <img src="https://images.chinahighlights.com/allpicture/2018/06/53bb2ac7be1a4657b37845a4_cut_750x400_196_1720544807.jpg" alt="Slide 2" class="Img">
+                                <div class="text-overlay">China</div>
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://i.pinimg.com/originals/0a/20/7a/0a207ac5b98d14933227aab87e03bfa4.jpg" alt="Slide 3" class="Img">
+                                <div class="text-overlay">India</div>
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+                        <div class="carousel-indicators">
+                            <span class="dot" onclick="goToSlide(0)"></span>
+                            <span class="dot" onclick="goToSlide(1)"></span>
+                            <span class="dot" onclick="goToSlide(2)"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12">
+                        <h2 class="">Why It's easy?</h2>
+                        <p><b>South Korea :</b> With a thriving entertainment industry and scholarships at schools like the Korea National University of Arts, South Korea offers numerous opportunities for international students. Government and university support make it more accessible than many other countries.<br><br>
+                            <b>China :</b>The Beijing Film Academy provides extensive scholarships backed by China’s growing film industry. Government support for international students makes the application process easier compared to other countries with fewer scholarships<br><br>
+                            <b>India :</b> India offers scholarships through prestigious institutions like the Film and Television Institute of India (FTII), supported by its well-established film industry and government funding​.<br><br></p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="mb-5 mt-5">Top 3 Easiest Countries to Apply for Scholarships</h1>
+            <hr>
+            <p class="mt-3 mb-3" style="color: rgb(196, 196, 196); text-shadow: 5px 5px 3px;">IN EUROPE</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-md-12">
+                        <h2 class="">Why It's easy?</h2>
+                        <p><b>United Kingdom :</b> The UK offers strong scholarships through institutions like the London Film School, backed by its leading film industry. Government funding and widespread support make it easier than other European countries<br><br>
+                            <b>Ireland :</b> With support from the Irish Film Board, Ireland offers scholarships for acting students, making it more accessible than countries with less focus on the arts​<br><br>
+                            <b>China :</b> Germany’s universities, like the University of Television and Film Munich, provide scholarships for acting students. Its commitment to cultural exchange makes scholarships more accessible than in countries with fewer arts opportunities.<br><br></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="scholar-carousel-container">
+                        <div class="scholar-carousel">
+                             <div class="scholar-carousel-item active">
+                                <img src="https://cache.marriott.com/content/dam/marriott-renditions/BERMT/bermt-attraction-brandenburg-3203-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*" alt="Germany" class="scholar-img">
+                                <div class="text-overlay">Germany</div>
+                            </div>
+                            <div class="scholar-carousel-item">
+                                <img src="https://th.bing.com/th/id/R.86d5685727d6330019078e6cbe9cbb05?rik=zD4vuVeLklwmeg&riu=http%3a%2f%2fjetsetera.net%2fwp-content%2fuploads%2f2013%2f03%2fstockholm-sweden.jpg&ehk=ypCaq9fbRDNM10NrEOYHW%2ftERVHsMPfw6V09Hohctag%3d&risl=&pid=ImgRaw&r=0" alt="Sweden" class="scholar-img">
+                                <div class="text-overlay">Sweden</div>
+                            </div>
+                            <div class="scholar-carousel-item">
+                                <img src="https://i.dailymail.co.uk/i/pix/2018/02/10/21/4914C9F000000578-5376077-image-a-144_1518296626711.jpg" alt="Netherlands" class="scholar-img">
+                                <div class="text-overlay">Netherland</div>
+                            </div>
+                    </div>
+                    <button class="scholar-carousel-control prev" onclick="prevScholarSlide()">&#10094;</button>
+                    <button class="scholar-carousel-control next" onclick="nextScholarSlide()">&#10095;</button>
+                    <div class="scholar-carousel-indicators">
+                        <span class="scholar-dot" onclick="goToScholarSlide(0)"></span>
+                        <span class="scholar-dot" onclick="goToScholarSlide(1)"></span>
+                        <span class="scholar-dot" onclick="goToScholarSlide(2)"></span>
+                    </div>
+                </div>
+                </div>
+            </div>
+         </div>
+    </div>
+<!--footer start-->
+<footer class="footer mt-5">  
+    <div class="footer-middle">  
+        <div class="container">  
+            <div class="row">  
+                <div class="col-md-3 col-sm-6">  
+                    <div class="footer-pad mt-3">  
+                        <h3>EduGuide</h4>  
+                        <ul class="list-unstyled">  
+                            <li><a href="#"></a></li>  
+                            <img src="image/star_logo.png" alt="" width="100px">
+                        </ul>  
+                        
+                    </div>  
+                </div>  
+                <div class="col-md-3 col-sm-6">  
+                    <div class="footer-pad mt-3">  
+                        <h3>Useful links</h3>  
+                        <ul class="list-unstyled">  
+                            <li><a href="index.html">Home</a></li>  
+                            <li><a href="aboutus.html">About us</a></li>  
+                            <li><a href="subjects.html">IGCSE Subjects</a></li>
+                            <li><a href="career.html">Services</a></li>    
+                        </ul>  
+                    </div>  
+                </div>  
+                <div class="col-md-3 col-sm-6">  
+                    <div class="footer-pad mt-3">  
+                        <h3>Legal</h3>  
+                        <ul class="list-unstyled">  
+                            <li><a href="">Privacy Policy</a></li>  
+                            <li><a href="">Terms of Service</a></li>  
+                            <li><a href="">Cookie Policy</a></li>  
+                        </ul>  
+                    </div>  
+                </div>  
+                <div class="col-xl-3 col-md-3 col-sm-12" style="color: white;">  
+                    <div class="footer-pad mt-3">
+                        <h3>Our social Networks</h3>
+                        <nav>
+                            <ul class="list-inline" style="text-align: center;">
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>          
+                </div>  
+            </div>  
+        <div class="row">  
+            <div class="col-md-12 copy">  
+                <p class="text-center">© Copyright 2024. All rights reserved. Developed by Eclipse.</p>  
+            </div>  
+        </div>  
+    </div>  
+</div>  
+</footer>  
+<!--footer end-->
+<!--back to top button-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-short"></i></button>
+<script src="userpage.js"></script>
+<script src="majors.js"></script>
+</body>
+</html>
