@@ -44,7 +44,16 @@ body {
 .nav-link:hover::before {
     width: 100%; /* Expands underline on hover */
 }
-
+.dropdown-menu{
+  background-color: #504bd6;
+}
+.dropdown-menu .dropdown-item{
+  color:white;
+}
+.dropdown-menu .dropdown-item:hover{
+ background-color: #504bd6;
+}
+/*nav end*/
 .s1{
   font-size: 50px;
   color: #504bd6;
@@ -57,7 +66,20 @@ body {
 .s3{
   font-size: 20px;
 }
-.sidebar {
+#userid {
+    background-color: #504bd6;
+    border-radius: 10px;
+    background-size: auto;
+    color: #ffffff;
+  }
+  .profile {
+    position:relative;
+  }
+  .aside {
+    position:absolute;
+    left:-100%;
+  }
+  .sidebar {
     position:fixed;
     top:60px;
     left:0;
@@ -129,10 +151,6 @@ hr {
     position:relative;
     top:100px;
 }
-
-
-
-
  
 @media screen and (max-width:768px){
     .nav-pills {
@@ -183,10 +201,11 @@ hr {
     padding: 10px;
     box-sizing: border-box;
   }
-#userid {
-    background-color: blue;
-    padding:5px 8px;
-    border-radius: 8px;
+  #userid {
+    background-color: #cccaff;
+    width: auto;
+    border-radius: 10px;
+    color: #504bd6;
   }
   .profile {
     position:relative;
@@ -222,76 +241,4 @@ h2{
   #myBtn:hover {
     background-color: #abacfd;
   }
-  /*footer start*/
- footer {  
-  background: #504bd6;  
-  color: white;  
-  margin-top:40px;
-  border-top-left-radius: 105px;
-}  
-footer a {  
-  color: #fff;  
-  font-size: 14px; 
-  text-decoration: none;  
-}  
-footer a:hover{
-  color: #bcc7ca;
-}
-ul.social-network {  
-  list-style: none;  
-  display: inline;  
-  margin-left: 0;  
-  padding: 0;  
-}  
-ul.social-network li {  
-  display: inline;  
-  margin: 0 5px;  
-}  
-.social-network a {  
-  background-color: #F9F9F9;  
-}  
-.bi{
-  font-size: 25px;
-}
-.copy {  
-  font-size: 12px;  
-  padding: 10px;  
-  border-top: 1px solid #FFFFFF;  
-}  
-.text-center{
-  font-size: 16px;
-}
-/* Media query for small devices */
-@media (max-width: 767px) {
-/* Center-align the social icons */
-  footer ul.social-network {
-      text-align: center;
-  }
-
-/* Center-align the h3 headings */
-  footer h3 {
-      text-align: center;
-  }
-
-/* Center-align the <a> tags within <li> elements */
-  footer ul.list-unstyled li {
-      text-align: center;
-  }
-}
-@media (max-width: 767px) {
-/* Apply text-align: center; to list-inline in the footer */
-  footer .list-inline {
-      text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .footer-pad img {
-      display: block;
-      margin: 0 auto;
-      text-align: center;
-  }
-}
-footer {
-  margin: 0 auto; /* Center the footer */
-}
-/*footer end*/
+  
